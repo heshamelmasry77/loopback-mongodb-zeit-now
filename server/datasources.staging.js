@@ -4,7 +4,7 @@
 // License text available at https://opensource.org/licenses/MIT
 
 module.exports = {
-  mongoDS: {
+  db: {
     connector: 'mongodb',
     hostname: process.env.DB_HOST || 'localhost',
     port: process.env.DB_PORT || 27017,
