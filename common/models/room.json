@@ -1,0 +1,165 @@
+{
+  "name": "room",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "propertyType": {
+      "type": "string",
+      "required": true
+    },
+    "availableBedrooms": {
+      "type": "number",
+      "required": true
+    },
+    "numberOfBedrooms": {
+      "type": "number",
+      "required": true
+    },
+    "numberOfBathrooms": {
+      "type": "number",
+      "required": true
+    },
+    "parking": {
+      "type": "boolean",
+      "required": true
+    },
+    "garden": {
+      "type": "boolean",
+      "required": true
+    },
+    "gym": {
+      "type": "boolean",
+      "required": true
+    },
+    "lift": {
+      "type": "boolean",
+      "required": true
+    },
+    "tv": {
+      "type": "boolean",
+      "required": true
+    },
+    "wifi": {
+      "type": "boolean",
+      "required": true
+    },
+    "rentPerMonth": {
+      "type": "number",
+      "required": true
+    },
+    "utilityCoastsPerMonth": {
+      "type": "number"
+    },
+    "roomType": {
+      "type": "string",
+      "required": true
+    },
+    "roomSurfaceArea": {
+      "type": "number"
+    },
+    "furnished": {
+      "type": "boolean",
+      "required": true
+    },
+    "enSuiteBathroom": {
+      "type": "boolean",
+      "required": true
+    },
+    "minimumStayInMonths": {
+      "type": "number",
+      "required": true
+    },
+    "startDate": {
+      "type": "date",
+      "required": true
+    },
+    "endDate": {
+      "type": "date",
+      "required": true
+    },
+    "currentFlatmates": {
+      "type": "number",
+      "required": true
+    },
+    "preferredGender": {
+      "type": "string",
+      "required": true
+    },
+    "preferredOccupation": {
+      "type": "string",
+      "required": true
+    },
+    "couples": {
+      "type": "boolean",
+      "required": true
+    },
+    "families": {
+      "type": "boolean",
+      "required": true
+    },
+    "pets": {
+      "type": "boolean",
+      "required": true
+    },
+    "smoking": {
+      "type": "boolean",
+      "required": true
+    },
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "phoneNumber": {
+      "type": "string"
+    },
+    "showPhoneNumber": {
+      "type": "boolean"
+    },
+    "advertisingAs": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "files": {
+      "type": [
+        "any"
+      ]
+    },
+    "adTitle": {
+      "type": "string",
+      "required": true
+    },
+    "propertyDescription": {
+      "type": "string"
+    },
+    "uid": {
+      "type": "string",
+      "required": true
+    },
+    "preferredAge": {
+      "type": "object",
+      "required": true
+    },
+    "location": {
+      "type": "object",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$unauthenticated",
+      "permission": "DENY"
+    }
+  ],
+  "methods": {}
+}

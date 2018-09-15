@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mongoDS": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "mongodb://heshamelmasry:vrockpokey99@ds125392.mlab.com:25392/roomme",
+    "database": "roomme",
+    "password": "",
+    "name": "mongoDS",
+    "user": "",
+    "connector": "mongodb"
+  }
+}
