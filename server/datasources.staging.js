@@ -2,6 +2,7 @@
 // Node module: loopback-example-offline-sync
 // This file is licensed under the MIT License.
 // License text available at https://opensource.org/licenses/MIT
+const whitelist = ['http://room-me-front.herokuapp.com'];
 
 module.exports = {
   mongoDS: {
@@ -13,5 +14,19 @@ module.exports = {
     database: 'roomme',
     url:process.env.DB_URL || ""
   },
+  "initial": {
+    "cors": {
+      "params": {
+        "origin": function (origin, callback) {
+          console.log(origin);
+          if (whitelist.indexOf(origin) !== -1) {
+            callback(null, true);
+          } else {
+            callback(new Error('Not allowed by CORS'));
+          }
+        }
+      }
+    }
+  }
 
 };
