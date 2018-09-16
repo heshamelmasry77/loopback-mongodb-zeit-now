@@ -2,7 +2,6 @@
 // Node module: loopback-example-offline-sync
 // This file is licensed under the MIT License.
 // License text available at https://opensource.org/licenses/MIT
-const whitelist = ['http://room-me-front.herokuapp.com'];
 
 module.exports = {
   mongoDS: {
@@ -29,5 +28,4 @@ module.exports = {
       }
     }
   }
-
 };
