@@ -12,7 +12,8 @@ module.exports = {
     user: process.env.DB_USER,
     password: process.env.DB_PASSWORD,
     database: 'roomme',
-    url:process.env.DB_URL || ""
+    url: process.env.DB_URL || "",
+    "useNewUrlParser": "true"
   },
   "initial": {
     "cors": {
