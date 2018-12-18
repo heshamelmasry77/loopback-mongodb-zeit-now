@@ -12,6 +12,8 @@
     "name": "mongoDS",
     "user": "",
     "connector": "mongodb",
-    "useNewUrlParser":"true"
+    "useNewUrlParser":"true",
+    "accepts": [{"arg": "filter","type": "object"}]
+
   }
 }

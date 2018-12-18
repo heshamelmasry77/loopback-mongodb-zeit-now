@@ -12,6 +12,8 @@ module.exports = {
     password: process.env.DB_PASSWORD,
     database: 'roomme',
     url: process.env.DB_URL || "",
-    "useNewUrlParser": "true"
+    "useNewUrlParser": "true",
+    "accepts": [{"arg": "filter","type": "object"}]
+
   },
 };

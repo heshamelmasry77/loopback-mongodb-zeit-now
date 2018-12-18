@@ -40,10 +40,14 @@
   },
   "Role": {
     "dataSource": "db",
-    "public": false
+    "public": false,
+    "accepts": [{"arg": "filter","type": "object"}]
+
   },
-  "room": {
+  "rooms": {
     "dataSource": "mongoDS",
-    "public": true
+    "public": true,
+    "accepts": [{"arg": "filter","type": "object"}]
+
   }
 }

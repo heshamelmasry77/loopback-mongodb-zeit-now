@@ -18,5 +18,7 @@
       "limit": "100kb"
     },
     "cors": false
-  }
+  },
+  "accepts": [{"arg": "filter","type": "object"}]
+
 }

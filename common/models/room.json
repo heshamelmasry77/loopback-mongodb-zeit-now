@@ -1,5 +1,5 @@
 {
-  "name": "room",
+  "name": "rooms",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -154,5 +154,7 @@
   "validations": [],
   "relations": {},
   "acls": [],
-  "methods": {}
+  "methods": {},
+  "accepts": [{"arg": "filter","type": "object"}]
+
 }
