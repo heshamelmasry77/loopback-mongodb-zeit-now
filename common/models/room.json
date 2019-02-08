@@ -149,12 +149,17 @@
     "location": {
       "type": "object",
       "required": true
+    },
+    "logTime":{
+      "type": "date",
+      "required": true,
+      "default": "$now"
     }
   },
   "validations": [],
   "relations": {},
   "acls": [],
   "methods": {},
-  "accepts": [{"arg": "filter","type": "object"}]
-
+  "accepts": [{"arg": "filter","type": "object"}],
+  "forceId": false
 }
