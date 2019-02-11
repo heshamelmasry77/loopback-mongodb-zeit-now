@@ -76,10 +76,6 @@
       "type": "date",
       "required": true
     },
-    "endDate": {
-      "type": "date",
-      "required": true
-    },
     "currentFlatmates": {
       "type": "number",
       "required": true
