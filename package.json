@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "compression": "^1.0.3",
-    "cors": "^2.8.4",
+    "cors": "^2.8.5",
     "helmet": "^3.10.0",
     "initial": "^0.1.9",
     "loopback": "^3.22.3",
