@@ -526,7 +526,7 @@ core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
 
-cors@^2.8.5:
+cors@^2.8.4:
   version "2.8.5"
   resolved "https://registry.yarnpkg.com/cors/-/cors-2.8.5.tgz#eac11da51592dd86b9f06f6e7ac293b3df875d29"
   dependencies:
@@ -1678,9 +1678,9 @@ loopback-component-explorer@^6.3.1:
     strong-globalize "^4.1.1"
     swagger-ui "^2.2.5"
 
-loopback-connector-mongodb@^3.7.1:
-  version "3.8.0"
-  resolved "https://registry.yarnpkg.com/loopback-connector-mongodb/-/loopback-connector-mongodb-3.8.0.tgz#e2ec78c5ae4a213a78ed69b3a4ba5f9cba8cf19c"
+loopback-connector-mongodb@^3.9.2:
+  version "3.9.2"
+  resolved "https://registry.yarnpkg.com/loopback-connector-mongodb/-/loopback-connector-mongodb-3.9.2.tgz#757bfba430e9321408593ab17a131f9e119bb253"
   dependencies:
     async "^2.6.1"
     bson "^1.0.6"
