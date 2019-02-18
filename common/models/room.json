@@ -114,6 +114,12 @@
     "showPhoneNumber": {
       "type": "boolean"
     },
+    "approved": {
+      "type": "boolean"
+    },
+    "premium": {
+      "type": "boolean"
+    },
     "advertisingAs": {
       "type": "string",
       "required": true

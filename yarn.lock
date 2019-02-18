@@ -1656,9 +1656,10 @@ lodash@^4.0.0, lodash@^4.11.1, lodash@^4.13.1, lodash@^4.17.10, lodash@^4.17.2, 
   version "4.17.11"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
 
-loopback-boot@^3.2.0:
+loopback-boot@^3.1.1:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/loopback-boot/-/loopback-boot-3.2.0.tgz#d1a0c92ceb45ba18f93dcde1427c795b48452508"
+  integrity sha512-lNVWW6GINHx6O/kzmOY+LP99JItzyBZIQWiH5tPSnCfrzYZ4LMXzou3//5v+eWi32rEZsaQZym8Y/g4JB+w9uw==
   dependencies:
     async "^2.4.0"
     bluebird "^3.4.0"
