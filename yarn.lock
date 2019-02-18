@@ -529,6 +529,7 @@ core-util-is@1.0.2, core-util-is@~1.0.0:
 cors@^2.8.4:
   version "2.8.5"
   resolved "https://registry.yarnpkg.com/cors/-/cors-2.8.5.tgz#eac11da51592dd86b9f06f6e7ac293b3df875d29"
+  integrity sha512-KIHbLJqu73RGr/hnbrO9uBeixNGuvSQjul/jdFvS/KFSIH1hWVd1ng7zOHx+YrEfInLG7q4n6GHQ9cDtxv/P6g==
   dependencies:
     object-assign "^4"
     vary "^1"
@@ -1655,9 +1656,9 @@ lodash@^4.0.0, lodash@^4.11.1, lodash@^4.13.1, lodash@^4.17.10, lodash@^4.17.2, 
   version "4.17.11"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
 
-loopback-boot@^3.1.1:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/loopback-boot/-/loopback-boot-3.1.1.tgz#cc4da47aebddaca1f52b401b70e6f04605624194"
+loopback-boot@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/loopback-boot/-/loopback-boot-3.2.0.tgz#d1a0c92ceb45ba18f93dcde1427c795b48452508"
   dependencies:
     async "^2.4.0"
     bluebird "^3.4.0"
@@ -1678,9 +1679,9 @@ loopback-component-explorer@^6.3.1:
     strong-globalize "^4.1.1"
     swagger-ui "^2.2.5"
 
-loopback-connector-mongodb@^3.7.1:
-  version "3.8.0"
-  resolved "https://registry.yarnpkg.com/loopback-connector-mongodb/-/loopback-connector-mongodb-3.8.0.tgz#e2ec78c5ae4a213a78ed69b3a4ba5f9cba8cf19c"
+loopback-connector-mongodb@^3.9.2:
+  version "3.9.2"
+  resolved "https://registry.yarnpkg.com/loopback-connector-mongodb/-/loopback-connector-mongodb-3.9.2.tgz#757bfba430e9321408593ab17a131f9e119bb253"
   dependencies:
     async "^2.6.1"
     bson "^1.0.6"
