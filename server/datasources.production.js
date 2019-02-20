@@ -3,5 +3,17 @@
 // This file is licensed under the MIT License.
 // License text available at https://opensource.org/licenses/MIT
 
-// Use the same environment-based configuration as in staging
-module.exports = require('./datasources.staging.js');
+module.exports = {
+  mongoDS: {
+    connector: 'mongodb',
+    hostname: process.env.DB_HOST || 'localhost',
+    port: process.env.DB_PORT || 27017,
+    user: process.env.DB_USER,
+    password: process.env.DB_PASSWORD,
+    database: 'roomme',
+    url: process.env.DB_URL || "",
+    "useNewUrlParser": "true",
+    "accepts": [{"arg": "filter","type": "object"}]
+
+  },
+};
