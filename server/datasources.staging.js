@@ -10,7 +10,7 @@ module.exports = {
     port: process.env.DB_PORT || 27017,
     user: process.env.DB_USER,
     password: process.env.DB_PASSWORD,
-    database: 'roomme',
+    database: 'room-me-staging',
     url: process.env.DB_URL || "",
     "useNewUrlParser": "true",
     "accepts": [{"arg": "filter","type": "object"}]
