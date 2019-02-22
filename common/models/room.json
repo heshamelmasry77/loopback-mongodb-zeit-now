@@ -144,9 +144,11 @@
       "type": "string",
       "required": true
     },
-    "preferredAge": {
-      "type": "object",
-      "required": true
+    "maxPreferredAge": {
+      "type": "string"
+    },
+    "minPreferredAge": {
+      "type": "string"
     },
     "location": {
       "type": "object",
