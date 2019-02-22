@@ -47,18 +47,18 @@
       "required": true
     },
     "rentPerMonth": {
-      "type": "number",
+      "type": "string",
       "required": true
     },
-    "utilityCoastsPerMonth": {
-      "type": "number"
+    "utilityCostsPerMonth": {
+      "type": "string"
     },
     "roomType": {
       "type": "string",
       "required": true
     },
     "roomSurfaceArea": {
-      "type": "number"
+      "type": "string"
     },
     "furnished": {
       "type": "boolean",
