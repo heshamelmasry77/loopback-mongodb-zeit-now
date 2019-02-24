@@ -47,11 +47,11 @@
       "required": true
     },
     "rentPerMonth": {
-      "type": "string",
+      "type": "number",
       "required": true
     },
     "utilityCostsPerMonth": {
-      "type": "string"
+      "type": "number"
     },
     "roomType": {
       "type": "string",
