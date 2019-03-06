@@ -1,5 +1,5 @@
-# RoomMe
-My dream project to help people find easy accomodation with a great experience ;) 
+# Roome
+My dream project to help people find easy long term room rentals with a great experience ;) 
 back-end 
 
 to run the project :
