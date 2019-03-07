@@ -1,4 +1,4 @@
-const whitelist = ['https://room-me-front.herokuapp.com','http://room-me-front.herokuapp.com','https://www.roome.co.za','http://www.roome.co.za','http://roome.co.za','https://roome.co.za','https://roome-front-nextjs-7ubvhtjgy.now.sh'];
+const whitelist = ['https://room-me-front.herokuapp.com','http://room-me-front.herokuapp.com','https://www.roome.co.za','http://www.roome.co.za','http://roome.co.za','https://roome.co.za','https://roome-front-nextjs-pcnrk93x7.now.sh'];
 module.exports = {
   "initial": {
     "cors": {
