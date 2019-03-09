@@ -3,9 +3,8 @@ module.exports = {
   "initial": {
     "cors": {
       "params": {
-        "origin": function (request, origin, callback) {
+        "origin": function (origin, callback) {
           console.log(origin);
-          console.log(request.headers.origin);
           if (whitelist.indexOf(origin) !== -1) {
             callback(null, true);
           } else {
