@@ -1,6 +1,7 @@
 const whitelist = ['https://room-me-front.herokuapp.com','http://room-me-front.herokuapp.com', 'https://room-me-front-staging.herokuapp.com','http://room-me-front-staging.herokuapp.com',
 'room-me-front-staging.herokuapp.com',
-'https://room-me-front-staging.herokuapp.com'
+'https://room-me-front-staging.herokuapp.com',
+    'localhost:3000'
 ];
 module.exports = {
   "initial": {
