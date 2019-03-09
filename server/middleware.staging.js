@@ -1,4 +1,7 @@
-const whitelist = ['https://room-me-front.herokuapp.com','http://room-me-front.herokuapp.com', 'https://room-me-front-staging.herokuapp.com','http://room-me-front-staging.herokuapp.com'];
+const whitelist = ['https://room-me-front.herokuapp.com','http://room-me-front.herokuapp.com', 'https://room-me-front-staging.herokuapp.com','http://room-me-front-staging.herokuapp.com',
+'room-me-front-staging.herokuapp.com',
+'https://room-me-front-staging.herokuapp.com'
+];
 module.exports = {
   "initial": {
     "cors": {
