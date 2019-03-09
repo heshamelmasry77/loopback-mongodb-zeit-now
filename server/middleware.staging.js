@@ -10,8 +10,12 @@ module.exports = {
           // note: if same origin makes requests with origin header, it needs to be whitelisted
 
           if (whitelist.indexOf(origin) !== -1) {
+            console.log('first',origin);
+
             callback(null, true);
           } else if (origin === undefined && ALLOWED_HOSTS.indexOf(req.header.host)) {
+            console.log('second',origin);
+
             callback(null, true);
           } else {
             // callback(null, true)
