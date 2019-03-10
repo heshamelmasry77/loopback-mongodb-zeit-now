@@ -3,10 +3,8 @@ module.exports = {
   "initial": {
     "cors": {
       "params": {
-        "origin": function (req,origin, callback) {
-          console.log(req.headers.origin);
-          console.log(req.headers.host);
-          console.log(origin);
+        "origin": function (origin, callback) {
+
           if(origin === undefined){
             callback(null, true);
           }
