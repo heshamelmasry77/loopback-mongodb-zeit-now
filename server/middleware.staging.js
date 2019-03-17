@@ -2,6 +2,7 @@ const whitelist = [
   'http://www.findaroome.co.za',
   'https://findaroome.herokuapp.com',
   'https://www.findaroome.com',
+    'https://room-me-front-staging.herokuapp.com'
 ];
 module.exports = {
   "initial": {
