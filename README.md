@@ -1,4 +1,4 @@
-# Roome
+# findaroome-back
 My dream project to help people find easy long term room rentals with a great experience ;) 
 back-end 
 
