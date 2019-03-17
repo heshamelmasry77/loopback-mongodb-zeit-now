@@ -14,7 +14,7 @@
   "dependencies": {
     "compression": "^1.0.3",
     "cors": "^2.8.4",
-    "helmet": "^3.15.1",
+    "helmet": "^3.16.0",
     "initial": "^0.1.9",
     "loopback": "^3.25.1",
     "loopback-boot": "^3.1.1",
