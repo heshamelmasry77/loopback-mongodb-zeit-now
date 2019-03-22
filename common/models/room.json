@@ -169,5 +169,8 @@
   "acls": [],
   "methods": {},
   "accepts": [{"arg": "filter","type": "object"}],
-  "forceId": false
+  "forceId": false,
+  "scope": {
+    "order": "logTime DESC"
+  }
 }
