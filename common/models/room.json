@@ -8,19 +8,19 @@
   "properties": {
     "propertyType": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "availableBedrooms": {
       "type": "number",
-      "required": true
+      "required": false
     },
     "numberOfBedrooms": {
       "type": "number",
-      "required": true
+      "required": false
     },
     "numberOfBathrooms": {
       "type": "number",
-      "required": true
+      "required": false
     },
     "parking": {
       "type": "boolean",
@@ -78,11 +78,11 @@
     },
     "currentFlatmates": {
       "type": "number",
-      "required": true
+      "required": false
     },
     "preferredGender": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "preferredOccupation": {
       "type": "string",
