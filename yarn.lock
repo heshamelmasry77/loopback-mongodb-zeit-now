@@ -1282,7 +1282,7 @@ levn@^0.3.0, levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
-lodash@^4.0.0, lodash@^4.13.1, lodash@^4.17.10, lodash@^4.17.2, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.3.0:
+lodash@^4.0.0, lodash@^4.13.1, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.2, lodash@^4.17.4, lodash@^4.3.0:
   version "4.17.11"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
 
@@ -1300,12 +1300,13 @@ loopback-boot@^3.1.1:
     strong-globalize "^4.1.1"
     toposort "^2.0.2"
 
-loopback-component-explorer@^6.3.1:
-  version "6.3.1"
-  resolved "https://registry.yarnpkg.com/loopback-component-explorer/-/loopback-component-explorer-6.3.1.tgz#66ac422b9d17d3c8cc0262c1c5c818a46ce0a03a"
+loopback-component-explorer@^6.4.0:
+  version "6.4.0"
+  resolved "https://registry.yarnpkg.com/loopback-component-explorer/-/loopback-component-explorer-6.4.0.tgz#12d8ae4d8f29bd1956604ecc03ead323d4ffe8c7"
+  integrity sha512-vDRR4gqkvGOEXh5yL383xGuGxUW9xtF+NCY6/lJu1VAgupKltZxEx3Vw+L3nsGvQrlkJTSmiK3jk72qxkoBtbw==
   dependencies:
     debug "^3.1.0"
-    lodash "^4.17.5"
+    lodash "^4.17.11"
     loopback-swagger "^5.0.0"
     strong-globalize "^4.1.1"
     swagger-ui "^2.2.5"
