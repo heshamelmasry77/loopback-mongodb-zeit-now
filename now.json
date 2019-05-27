@@ -1,0 +1,15 @@
+{
+  "name": "back-end",
+  "version": 2,
+  "builds": [{ "src": "*/server.js", "use": "@now/node-server"}
+  ],
+  "routes": [{ "src": "/(.*)" }],
+  "env": {
+    "DB_HOST": "ds145555.mlab.com",
+    "DB_PORT": "45555",
+    "DB_USER": "heshamelmasry77",
+    "DB_PASSWORD": "vrockpokey88",
+    "DB_URL": "mongodb://heshamelmasry77:vrockpokey88@ds145555.mlab.com:45555/room-me-staging",
+    "NODE_ENV": "staging"
+  }
+}
