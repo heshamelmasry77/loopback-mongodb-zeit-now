@@ -1,6 +1,4 @@
-# findaroome-back
-My dream project to help people find easy long term room rentals with a great experience ;) 
-back-end 
+# use loopback with zeit now to deploy with mongodb
 
 to run the project :
 1. make sure you have mongoDB installed on your machine
